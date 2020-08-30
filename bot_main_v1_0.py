@@ -332,7 +332,7 @@ class DirectPage:
 
 def main():
     # telegram
-    browser_tel = webdriver.Chrome()
+    browser_tel = webdriver.Chrome('chromedriver.exe')
     browser_tel.implicitly_wait(5)
     browser_tel.get('https://web.telegram.org/#/im')
     number = '9268589598'
